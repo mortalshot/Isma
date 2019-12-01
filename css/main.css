@@ -3355,6 +3355,7 @@ main {
         width: 100%;
         margin: 0 0 10px
     }
+
     .conferences__item {
         margin-bottom: 31px;
         max-width: 554px;
@@ -6026,8 +6027,8 @@ main {
     background: #fff;
     margin: 0 0 80px;
     box-sizing: border-box;
-    min-height: 390px;
-    padding: 30px 0
+    /* min-height: 390px; */
+    padding: 1px 0 30px;
 }
 
 .page-header_no-margin {
@@ -6364,6 +6365,11 @@ main {
 
 .page-content {
     clear: both
+}
+
+.page__content p {
+    margin: 0 0 1.55555556em;
+    max-width: 1070px;
 }
 
 .page-content_aside {
@@ -7545,7 +7551,8 @@ main {
     background-color: #ffba8f;
     padding: 37px 41px;
 }
-.page-header__description-intro a{
+
+.page-header__description-intro a {
     color: #666666;
 }
 
@@ -7554,6 +7561,7 @@ main {
     .conferences-name-about {
         padding: 25px 11px;
     }
+
     .conferences-name-title {
         font-size: 24px;
         line-height: 24px;
@@ -7565,16 +7573,18 @@ main {
         margin-top: 15px;
         margin-bottom: 11px;
     }
+
     .conferences-name {
         font-size: 15px;
         line-height: 21px;
     }
+
     .conferences-name-warning {
         padding: 18px 22px 8px 17px;
     }
 }
 
-@media (min-width:1400px) {
+@media (min-width:1200px) {
     .conferences-name-about img {
 
         float: right;
